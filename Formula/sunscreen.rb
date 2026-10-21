@@ -1,27 +1,27 @@
 class Sunscreen < Formula
   desc "Protection from Suno haze: cleans up tracks downloaded from Suno"
   homepage "https://github.com/abradburne/sunscreen"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/abradburne/sunscreen/releases/download/v0.4.0/sunscreen-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "98940e2e2e2f2e5ca3b26210b22eee25bfa16f1409a4d7fc494b207759ab031c"
+      url "https://github.com/abradburne/sunscreen/releases/download/v0.5.0/sunscreen-v0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d73daeec23ac3e3afc296431bccb140075e8fbe8f8377bedfef26a985f64f86f"
     end
     on_intel do
-      url "https://github.com/abradburne/sunscreen/releases/download/v0.4.0/sunscreen-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "52f964ea27ba1f46f3cca72baa1c7fe51fe894422b5220fa453dc742f100424c"
+      url "https://github.com/abradburne/sunscreen/releases/download/v0.5.0/sunscreen-v0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cdda940887e2b5521d0fd3cf89bf511284c8acd5bd1463a40c5d73d3b7bb6022"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/abradburne/sunscreen/releases/download/v0.4.0/sunscreen-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "11d4e89625939f4880e62620af19e55a4a83df6f30d75ee155f6981dd3477caf"
+      url "https://github.com/abradburne/sunscreen/releases/download/v0.5.0/sunscreen-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d4826adca1c23f5dc77dcaf4382a349b61e8992844f663dfdb1d4c4714e4f099"
     end
     on_intel do
-      url "https://github.com/abradburne/sunscreen/releases/download/v0.4.0/sunscreen-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d146f52fa71730e37577c423d6c5e94738ba73922195c435c8ec0d1318457c59"
+      url "https://github.com/abradburne/sunscreen/releases/download/v0.5.0/sunscreen-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f80bea35e95e777ccb8025e4dd730473be53a7a3aac5d51de24fc453109ae748"
     end
   end
 
