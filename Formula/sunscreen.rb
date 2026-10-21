@@ -2,6 +2,7 @@ class Sunscreen < Formula
   desc "Protection from Suno haze: cleans up tracks downloaded from Suno"
   homepage "https://github.com/abradburne/sunscreen"
   version "0.2.0"
+  license "MIT"
 
   on_macos do
     on_arm do
